@@ -33,7 +33,7 @@ float Calculate(float Numeral, char Operation[4])
 	    scanf("%f",&SecondNumeral); 
 	    if(SecondNumeral == 0)
 		{
-		    printf("Ошибка: деление на ноль! ");
+		    printf("Ошибка: деление на ноль! It isn't good!");
 		    return(HUGE_VAL);
 		}	
 	    else
